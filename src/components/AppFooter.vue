@@ -1,11 +1,11 @@
 <script>
-import MusicList from "./Card/MusicList.vue";
+//import MusicList from "./Card/MusicList.vue";
 
 export default {
   data() {
     return {};
   },
-  components: { MusicList },
+ // components: { MusicList },
 };
 </script>
 

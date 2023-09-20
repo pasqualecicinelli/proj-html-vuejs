@@ -30,12 +30,12 @@ const jazzList = {
       img: "/imgs/assets/gallery1.jpg",
       title: "A ROLL AND BANG THE FLOOR",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
     {
@@ -43,12 +43,12 @@ const jazzList = {
       img: "/imgs/assets/gallery2.jpg",
       title: "YOUR MELODY TO OUR MUSIC",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
     {
@@ -56,12 +56,12 @@ const jazzList = {
       img: "/imgs/assets/gallery3.jpg",
       title: "TOUCHING HEAVEN ON FREQUENCY",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
     {
@@ -69,12 +69,12 @@ const jazzList = {
       img: "/imgs/assets/gallery4.jpg",
       title: "MUSIC MAKES STRONGE BEATS",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
     {
@@ -82,12 +82,12 @@ const jazzList = {
       img: "/imgs/assets/gallery5.jpg",
       title: "SOUND IS THE SPARK OF TIME",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
     {
@@ -95,12 +95,12 @@ const jazzList = {
       img: "/imgs/assets/gallery6.jpg",
       title: "MAKE YOUR NIGHT GROOVY",
       whereStream: "Stream On: ",
-      linkMusic: [
-        "link",
+      iconsMusic: [
         "/imgs/assets/image (20).svg",
-        "link",
-        "link",
-        "link",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
+        "/imgs/assets/image (20).svg",
       ],
     },
   ],

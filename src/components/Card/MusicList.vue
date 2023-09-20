@@ -22,11 +22,6 @@ export default {
     />
   </section>
 
-  <!-- NON FUNZIONA DA RIVEDERE
-<section>
-  <AppCard v-for="jazz in jazzList.list" :key="jazz.id" :cardJazz="jazz"/>
-</section>
-  -->
 </template>
 
 <style lang="scss" scoped as *>

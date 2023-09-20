@@ -1,11 +1,12 @@
 <script>
 import MusicList from "./Card/MusicList.vue";
+import MusicListJazz from "./Card/MusicListJazz.vue";
 
 export default {
   data() {
     return {};
   },
-  components: { MusicList },
+  components: { MusicList, MusicListJazz },
 };
 </script>
 
@@ -38,10 +39,15 @@ export default {
       </div>
     </div>
 
-    <div class="container-general">
+    <div class="container-jazz p-5">
+      <div class="container">
+        <div class="text-video">
+          <h5>WHO WE ARE</h5>
+          <h2>SENSE THE JAZZ</h2>
+        </div>
 
-    <!--<MusicList />-->  
-
+        <MusicListJazz />
+      </div>
     </div>
   </main>
 </template>
@@ -49,6 +55,9 @@ export default {
 <style lang="scss" scoped as *>
 @use "../components/style/partials/mixins" as *;
 .container-general {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   .content-section {
     display: flex;
     flex-direction: row;
@@ -56,7 +65,7 @@ export default {
   .content-text {
     @include center();
     text-align: center;
-    margin-top: 5rem;
+   
   }
 }
 
@@ -82,6 +91,35 @@ export default {
       font-size: 3rem;
       color: var(--white);
       padding: 1rem 0;
+    }
+  }
+}
+.container-jazz {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 700px;
+  background-color: var(--black);
+  color: var(--white);
+  .container {
+    padding: 2rem 0;
+   display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    background-color: var(--black);
+    color: var(--white);
+
+    .text-video{
+      text-align: center;
+      width: 100%;
+      h5{
+        font-size: 0.7rem;
+      }
+      h2{
+        padding: 0;
+      }
     }
   }
 }
