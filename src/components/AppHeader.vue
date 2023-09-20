@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       term: "",
-      emit:['search-title'],
+      emit: ["search-title"],
     };
   },
   props: {
@@ -85,7 +85,7 @@ export default {
               aria-label="Search"
             />
             <button class="btn btn-outline-success" type="submit">
-              Search
+              <img src="/imgs/assets/image (23).svg" alt="" />
             </button>
           </form>
         </div>
@@ -101,5 +101,13 @@ export default {
 
 header {
   color: var(--white);
+  button {
+    border: 0;
+    img {
+      filter: invert(95%) sepia(0%) saturate(19%) hue-rotate(14deg)
+        brightness(105%) contrast(104%);
+       
+    }
+  }
 }
 </style>

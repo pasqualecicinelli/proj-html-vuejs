@@ -45,8 +45,15 @@ export default {
           <h5>WHO WE ARE</h5>
           <h2>SENSE THE JAZZ</h2>
         </div>
-
         <MusicListJazz />
+      </div>
+    </div>
+
+    <div class="container-album">
+      <div class="text-video">
+        <h5>INSTRUMENTAL ROCK</h5>
+        <h2>ALBUM OUT NOW</h2>
+        <button class="button-general">READ MORE</button>
       </div>
     </div>
   </main>
@@ -65,7 +72,6 @@ export default {
   .content-text {
     @include center();
     text-align: center;
-   
   }
 }
 
@@ -103,24 +109,35 @@ export default {
   color: var(--white);
   .container {
     padding: 2rem 0;
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    
+
     background-color: var(--black);
     color: var(--white);
 
-    .text-video{
+    .text-video {
       text-align: center;
       width: 100%;
-      h5{
+      h5 {
         font-size: 0.7rem;
       }
-      h2{
+      h2 {
         padding: 0;
       }
     }
+  }
+}
+.container-album {
+  display: flex;
+  align-items: center;
+  padding-left: 6rem;
+  background-image: url("/imgs/assets/cms_parallax.jpg");
+
+  h2 {
+    font-size: 4rem;
+    padding-top: 0;
   }
 }
 </style>

@@ -23,8 +23,8 @@ export default {
 @use "../style/partials/mixins" as *;
 
 .card-top {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   display: flex;
   align-items: center;
   padding-top: 2rem;
