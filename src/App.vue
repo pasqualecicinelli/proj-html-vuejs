@@ -56,7 +56,10 @@ export default {
 
   components: { AppHeader, AppMain, AppJumbotron, AppFooter },
   methods: {
-   
+    //  foundTitle(searchTitle) {
+    //  if (searchTitle.includes(musicTitle)) {
+    // }
+    // }
   },
 };
 </script>

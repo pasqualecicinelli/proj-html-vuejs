@@ -94,7 +94,7 @@ export default {
   </header>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped as *>
 .bg-body-tertiary {
   background-color: var(--black) !important;
 }

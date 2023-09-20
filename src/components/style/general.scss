@@ -7,4 +7,29 @@
   --orange: #f2870c;
 }
 
+.container-jumbo {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.text-video {
+  width: 50%;
+  h5 {
+    color: var(--orange);
+  }
+  h1 {
+    font-size: 4rem;
+    color: var(--white);
+    padding: 1rem 0;
+  }
+}
+
+.button-general {
+  border: 2px solid var(--orange);
+  background-color: transparent;
+  padding: 0.5rem 3rem;
+  color: var(--white);
+}
