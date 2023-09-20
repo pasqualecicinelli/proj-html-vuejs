@@ -6,14 +6,63 @@ import AppFooter from "./components/AppFooter.vue";
 
 export default {
   data() {
-    return {};
+    return {
+      navHeader: [
+        {
+          id: 1,
+          title: "HOME",
+        },
+        {
+          id: 2,
+          title: "BLOG",
+        },
+        {
+          id: 3,
+          title: "EVENT",
+          list: [
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+          ],
+        },
+        {
+          id: 4,
+          title: "GALLERY",
+        },
+        {
+          id: 5,
+          title: "ABOUT US",
+        },
+        {
+          id: 6,
+          title: "CONTACT US",
+        },
+        {
+          id: 7,
+          title: "SHOP",
+          list: [
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+            "CHORAL MUSIC",
+          ],
+        },
+      ],
+    };
   },
+
   components: { AppHeader, AppMain, AppJumbotron, AppFooter },
+  methods: {
+   
+  },
 };
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader :headerList="navHeader" @search-title="foundTitle" />
 
   <section>
     <AppJumbotron />
@@ -26,7 +75,6 @@ export default {
   <AppFooter />
 </template>
 
-<style lang="scss" as * >
+<style lang="scss" as *>
 @use "../src/components/style/general.scss";
-
 </style>

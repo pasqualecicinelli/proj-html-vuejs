@@ -1,14 +1,105 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      term: "",
+      emit:['search-title'],
+    };
+  },
+  props: {
+    headerList: Object,
   },
 };
 </script>
 
 <template>
-<h1>header</h1>
+  <header>
+    <nav
+      class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand flex-grow-1" href="#"
+          ><img src="/imgs/assets/Logo.png" alt=""
+        /></a>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul
+            v-for="listNav in headerList"
+            :key="listNav.id"
+            class="navbar-nav me-auto mb-2 mb-lg-0"
+          >
+            <li v-if="listNav.id !== 3 && listNav.id !== 7" class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >{{ listNav.title }} {{ console.log(listNav.id) }}</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li
+              v-for="listNav in headerList"
+              v-show="listNav.id == 3 || listNav.id == 7"
+              class="nav-item dropdown"
+            >
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >{{ listNav.title }}
+              </a>
+              <ul v-for="listEandS in listNav.list" class="dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >{{ listEandS }} {{ console.log(listEandS) }}
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form
+            @submit.prevent="$emit('search-title', term)"
+            class="d-flex"
+            role="search"
+          >
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.bg-body-tertiary {
+  background-color: var(--black) !important;
+}
+
+header {
+  color: var(--white);
+}
+</style>

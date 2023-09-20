@@ -3,12 +3,24 @@
 export default {
   data() {
     return {};
-  },
+    },
+    props: {
+        cardInfo:Object,
+    }
 };
 </script>
 
 <template>
-    <h1>card</h1>
+
+    <div class="card" style="width: 18rem;">
+  <img :src="cardInfo.img" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ cardInfo.title }}</h5>
+    <p class="card-text">{{ cardInfo.description }}</p>
+    
+  </div>
+</div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>

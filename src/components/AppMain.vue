@@ -12,7 +12,7 @@ export default {
 <template>
   <h1>main</h1>
 
-  <!--SPOSTARE JUMBOTRON, SARA' FIGLIO DI MAIN-->
+
 
   <section>
     <MusicList />
