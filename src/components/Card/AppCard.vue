@@ -5,7 +5,7 @@ export default {
   },
   props: {
     cardInfo: Object,
-    cardJazz: Array,
+    cardJazz: Object,
   },
 };
 </script>
@@ -19,6 +19,15 @@ export default {
     </div>
   </div>
 
+  <!--
+  <div class="card card-jazz">
+    <img :src="cardJazz.img" class="card-img-top change-color" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ cardJazz.title }}</h5>
+      <p class="card-text">{{ cardJazz.whereStream }}</p>
+    </div>
+  </div>
+  -->
   
 </template>
 

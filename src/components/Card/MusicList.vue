@@ -7,8 +7,6 @@ export default {
     return {
       buttonsList,
       jazzList,
-
-      
     };
   },
   components: { AppCard },
@@ -16,21 +14,26 @@ export default {
 </script>
 
 <template>
-
   <section class="button-top">
-    <AppCard v-for="button in buttonsList.list" :key="button.id" :cardInfo="button" />
+    <AppCard
+      v-for="button in buttonsList.list"
+      :key="button.id"
+      :cardInfo="button"
+    />
   </section>
 
-
-  
+  <!-- NON FUNZIONA DA RIVEDERE
+<section>
+  <AppCard v-for="jazz in jazzList.list" :key="jazz.id" :cardJazz="jazz"/>
+</section>
+  -->
 </template>
 
 <style lang="scss" scoped as *>
-.button-top{
+.button-top {
   display: flex;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    gap: 1rem;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  gap: 1rem;
 }
-
 </style>
