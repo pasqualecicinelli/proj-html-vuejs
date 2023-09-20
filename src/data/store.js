@@ -3,60 +3,105 @@ export { buttonsList, jazzList };
 const buttonsList = {
   list: [
     {
+      id: 21,
       img: "/imgs/imgPricipal/speaker.svg",
       title: "ORIGINAL IDEAS",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores nihil ullam necessitatibus sed autem omnis minima illo cumque, soluta iure, libero laborum est iste hic, similique voluptates nobis eos.",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
     {
+      id: 22,
       img: "/imgs/imgPricipal/disc.svg",
       title: "MUSIC STUDIO",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores nihil ullam necessitatibus sed autem omnis minima illo cumque, soluta iure, libero laborum est iste hic, similique voluptates nobis eos.",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
     {
+      id: 23,
       img: "/imgs/imgPricipal/headphones.svg",
       title: "ACOUSTIC COVERS",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores nihil ullam necessitatibus sed autem omnis minima illo cumque, soluta iure, libero laborum est iste hic, similique voluptates nobis eos.",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
   ],
 };
 
 const jazzList = {
-    list: [
-        {
-            img: "/imgs/assets/gallery1.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        },
-        {
-            img: "/imgs/assets/gallery2.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        },
-        {
-            img: "/imgs/assets/gallery3.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        },
-        {
-            img: "/imgs/assets/gallery4.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        },
-        {
-            img: "/imgs/assets/gallery5.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        },
-        {
-            img: "/imgs/assets/gallery6.jpg",
-            title: "",
-            whereStream: "Stream On: ",
-            linkMusic:["link","/imgs/assets/image (20).svg","link","link","link",]
-        }
-    ]
-}
+  list: [
+    {
+      id: 11,
+      img: "/imgs/assets/gallery1.jpg",
+      title: "A ROLL AND BANG THE FLOOR",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+    {
+      id: 12,
+      img: "/imgs/assets/gallery2.jpg",
+      title: "YOUR MELODY TO OUR MUSIC",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+    {
+      id: 13,
+      img: "/imgs/assets/gallery3.jpg",
+      title: "TOUCHING HEAVEN ON FREQUENCY",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+    {
+      id: 14,
+      img: "/imgs/assets/gallery4.jpg",
+      title: "MUSIC MAKES STRONGE BEATS",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+    {
+      id: 15,
+      img: "/imgs/assets/gallery5.jpg",
+      title: "SOUND IS THE SPARK OF TIME",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+    {
+      id: 16,
+      img: "/imgs/assets/gallery6.jpg",
+      title: "MAKE YOUR NIGHT GROOVY",
+      whereStream: "Stream On: ",
+      linkMusic: [
+        "link",
+        "/imgs/assets/image (20).svg",
+        "link",
+        "link",
+        "link",
+      ],
+    },
+  ],
+};

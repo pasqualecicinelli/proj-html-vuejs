@@ -11,7 +11,7 @@ export default {
 
 <template>
   <h1>Footer</h1>
-  <MusicList />
+ <!--<MusicList />--> 
 </template>
 
 <style lang="scss" scoped></style>

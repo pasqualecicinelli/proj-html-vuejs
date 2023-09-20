@@ -12,6 +12,7 @@ export default {
       <h5>INSTRUMENTAL ROCK</h5>
       <h1>MUSIC IN THIS VIDEO</h1>
       <button class="button-general"><h6>READ MORE</h6></button>
+
     </div>
   </div>
 </template>
