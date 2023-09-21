@@ -78,7 +78,7 @@ export default {
             class="d-flex"
             role="search"
           >
-            <input
+            <input v-model="term"
               class="form-control me-2"
               type="search"
               placeholder="Search"

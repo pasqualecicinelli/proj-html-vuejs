@@ -1,4 +1,11 @@
-export { buttonsList, jazzList, howManyList, bestMusicList, picturesIngList };
+export {
+  buttonsList,
+  jazzList,
+  howManyList,
+  bestMusicList,
+  picturesIngList,
+  generalInfoList,
+};
 
 const buttonsList = {
   list: [
@@ -200,6 +207,49 @@ const picturesIngList = {
     {
       id: 8,
       picture: "/imgs/assets/instagram_img8.jpg",
+    },
+  ],
+};
+
+const generalInfoList = {
+  listBook: [
+    {
+      id: 1,
+      title: "BOOKING",
+      location:
+        "502 New Design Str, Melbourne, San Francisco, CA94110, United States Of America Australia",
+      postalCode: "T: 1123-456-789",
+      Email: "demo@example.com",
+      icons: [
+        "/imgs/assets/image (17).svg",
+        "/imgs/assets/image (18).svg",
+        "/imgs/assets/image (19).svg",
+        "/imgs/assets/image (20).svg",
+      ],
+    },
+  ],
+  listInfo: [
+    {
+      id: 2,
+      title: "INFORMATION",
+      list: [
+        "Product Support",
+        "Checkout",
+        "Report Abuse",
+        "Redeem Voucher",
+        "Order Status",
+      ],
+    },
+    {
+      id: 3,
+      title: "SUPPORT",
+      list: [
+        "Policies & Rules",
+        "Privacy Policy",
+        "License Policy",
+        "My Account",
+        "Locality",
+      ],
     },
   ],
 };
