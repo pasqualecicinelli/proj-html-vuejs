@@ -1,4 +1,4 @@
-export { buttonsList, jazzList };
+export { buttonsList, jazzList, howManyList };
 
 const buttonsList = {
   list: [
@@ -102,6 +102,35 @@ const jazzList = {
         "/imgs/assets/image (20).svg",
         "/imgs/assets/image (20).svg",
       ],
+    },
+  ],
+};
+
+const howManyList = {
+  list: [
+    {
+      id: 1,
+      img: "/imgs/assets/image (13).svg",
+      totalNumbers: "163",
+      type: "CONCERTS",
+    },
+    {
+      id: 2,
+      img: "/imgs/assets/image (14).svg",
+      totalNumbers: "145",
+      type: "HAPPY CLIENTS",
+    },
+    {
+      id: 3,
+      img: "/imgs/assets/image (15).svg",
+      totalNumbers: "72",
+      type: "MUSIC AWARDS",
+    },
+    {
+      id: 4,
+      img: "/imgs/assets/image (16).svg",
+      totalNumbers: "182",
+      type: "TOTAL SONGS",
     },
   ],
 };

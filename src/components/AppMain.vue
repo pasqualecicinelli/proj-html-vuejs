@@ -1,12 +1,13 @@
 <script>
 import MusicList from "./Card/MusicList.vue";
 import MusicListJazz from "./Card/MusicListJazz.vue";
+import HowManyList from "./Card/HowManyList.vue";
 
 export default {
   data() {
     return {};
   },
-  components: { MusicList, MusicListJazz },
+  components: { MusicList, MusicListJazz, HowManyList },
 };
 </script>
 
@@ -55,6 +56,10 @@ export default {
         <h2>ALBUM OUT NOW</h2>
         <button class="button-general">READ MORE</button>
       </div>
+    </div>
+
+    <div class="container-how-many">
+      <HowManyList />
     </div>
   </main>
 </template>
@@ -139,5 +144,18 @@ export default {
     font-size: 4rem;
     padding-top: 0;
   }
+}
+
+.container-how-many {
+  width: 100%;
+  height: 300px;
+  background-size: 80%;
+  background-position: top;
+  background-attachment: fixed;
+  background-image: url("/imgs/assets/counter_parallax.jpg");
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
