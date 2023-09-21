@@ -14,7 +14,7 @@ export default {
     <img :src="cardHowMany.img" class="card-img-top" alt="..." />
     <div class="card-body">
       <h2 class="total">{{ cardHowMany.totalNumbers }}</h2>
-      <h7 class="card-title">{{ cardHowMany.type }}</h7>
+      <h6 class="card-title">{{ cardHowMany.type }}</h6>
     </div>
   </div>
 </template>

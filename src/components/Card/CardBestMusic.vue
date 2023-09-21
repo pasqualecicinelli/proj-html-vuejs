@@ -26,7 +26,7 @@ export default {
 @use "../style/partials/mixins" as *;
 
 .card-best-music {
-  width: 350px;
+  max-width: 350px;
   aspect-ratio: 1;
   background-color: var(--black);
   color: var(--white);

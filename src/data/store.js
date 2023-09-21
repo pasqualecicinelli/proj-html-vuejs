@@ -1,4 +1,4 @@
-export { buttonsList, jazzList, howManyList, bestMusicList };
+export { buttonsList, jazzList, howManyList, bestMusicList, picturesIngList };
 
 const buttonsList = {
   list: [
@@ -163,6 +163,43 @@ const bestMusicList = {
       date: "07 May 2022",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum officia itaque quidem quo soluta dolore ipsa nostrum hic, similique.",
+    },
+  ],
+};
+
+const picturesIngList = {
+  list: [
+    {
+      id: 1,
+      picture: "/imgs/assets/instagram_img1.jpg",
+    },
+    {
+      id: 2,
+      picture: "/imgs/assets/instagram_img2.jpg",
+    },
+    {
+      id: 3,
+      picture: "/imgs/assets/instagram_img3.jpg",
+    },
+    {
+      id: 4,
+      picture: "/imgs/assets/instagram_img4.jpg",
+    },
+    {
+      id: 5,
+      picture: "/imgs/assets/instagram_img5.jpg",
+    },
+    {
+      id: 6,
+      picture: "/imgs/assets/instagram_img6.jpg",
+    },
+    {
+      id: 7,
+      picture: "/imgs/assets/instagram_img7.jpg",
+    },
+    {
+      id: 8,
+      picture: "/imgs/assets/instagram_img8.jpg",
     },
   ],
 };

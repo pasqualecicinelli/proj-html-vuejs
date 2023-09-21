@@ -1,11 +1,12 @@
 <script>
 import BestMusicList from "./Card/BestMusicList.vue";
+import PictureIngList from "./Card/PictureIngList.vue";
 
 export default {
   data() {
     return {};
   },
-  components: { BestMusicList },
+  components: { BestMusicList, PictureIngList },
 };
 </script>
 <template>
@@ -17,6 +18,12 @@ export default {
           <h2>BEST MUSIC BLOG</h2>
         </div>
         <BestMusicList />
+      </div>
+    </section>
+
+    <section>
+      <div class="container-picture-ins">
+        <PictureIngList />
       </div>
     </section>
   </footer>
@@ -32,13 +39,17 @@ export default {
   height: 700px;
   background-color: var(--black);
 
-  .text-video{
-    h5{
+  .text-video {
+    h5 {
       font-size: 0.75rem;
     }
-    h2{
+    h2 {
       font-size: 2.5rem;
     }
   }
+}
+.container-picture-ins{
+  max-width: 100%;
+  max-height:200px;
 }
 </style>
