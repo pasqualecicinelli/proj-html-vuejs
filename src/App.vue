@@ -55,12 +55,12 @@ export default {
   },
 
   components: { AppHeader, AppMain, AppJumbotron, AppFooter },
-  methods: {
+  //methods: {
     //  foundTitle(searchTitle) {
     //  if (searchTitle.includes(musicTitle)) {
     // }
     // }
-  },
+
 };
 </script>
 
@@ -78,6 +78,6 @@ export default {
   <AppFooter />
 </template>
 
-<style lang="scss" as *>
-@use "../src/components/style/general.scss";
+<style lang="scss" as * >
+@use "../src/components/style/general.scss" as *;
 </style>

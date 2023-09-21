@@ -68,6 +68,7 @@ export default {
                   <a class="nav-link active" aria-current="page" href="#"
                     >{{ listEandS }} {{ console.log(listEandS) }}
                   </a>
+                  
                 </li>
               </ul>
             </li>
