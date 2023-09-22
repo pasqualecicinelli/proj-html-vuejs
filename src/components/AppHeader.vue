@@ -63,12 +63,11 @@ export default {
                 aria-expanded="false"
                 >{{ listNav.title }}
               </a>
-              <ul v-for="listEandS in listNav.list" class="dropdown-menu">
-                <li class="nav-item">
+              <ul class="dropdown-menu">
+                <li class="nav-item" v-for="listEandS in listNav.list">
                   <a class="nav-link active" aria-current="page" href="#"
-                    >{{ listEandS }} {{ console.log(listEandS) }}
+                    >{{ listEandS }}
                   </a>
-                  
                 </li>
               </ul>
             </li>
@@ -79,7 +78,8 @@ export default {
             class="d-flex"
             role="search"
           >
-            <input v-model="term"
+            <input
+              v-model="term"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -104,10 +104,10 @@ header {
   color: var(--white);
   button {
     border: 0;
+
     img {
       filter: invert(95%) sepia(0%) saturate(19%) hue-rotate(14deg)
         brightness(105%) contrast(104%);
-       
     }
   }
 }

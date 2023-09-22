@@ -33,6 +33,7 @@ export default {
 
 .container-info{
   display: flex;
+  gap: 2rem;
   
 }
 </style>

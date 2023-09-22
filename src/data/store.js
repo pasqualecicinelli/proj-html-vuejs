@@ -208,7 +208,17 @@ const picturesIngList = {
       id: 8,
       picture: "/imgs/assets/instagram_img8.jpg",
     },
+    {
+      id: 9,
+      picture: "/imgs/assets/instagram_img9.jpg",
+    },
+    {
+      id: 10,
+      picture: "/imgs/assets/instagram_img10.jpg",
+    },
   ],
+  currentSlide: 0,
+  autoPlayValue: false,
 };
 
 const generalInfoList = {
@@ -219,7 +229,7 @@ const generalInfoList = {
       location:
         "502 New Design Str, Melbourne, San Francisco, CA94110, United States Of America Australia",
       postalCode: "T: 1123-456-789",
-      Email: "demo@example.com",
+      email: "Email: demo@example.com",
       icons: [
         "/imgs/assets/image (17).svg",
         "/imgs/assets/image (18).svg",

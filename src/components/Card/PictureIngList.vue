@@ -9,6 +9,24 @@ export default {
     };
   },
   components: { CardPictureIng },
+
+  //NON FUNZIONA SLIDER
+  method: {
+    goNext() {
+      if (picturesIngList.currentSlide < picturesIngList.list.length - 1) {
+        picturesIngList.currentSlide++;
+      } else {
+        picturesIngList.currentSlide = 0;
+      }
+    },
+    goPrev() {
+      if (picturesIngList.currentSlide > 0) {
+        picturesIngList.currentSlide--;
+      } else {
+        picturesIngList.currentSlide = picturesIngList.list.length - 1;
+      }
+    },
+  },
 };
 </script>
 
@@ -19,13 +37,26 @@ export default {
       :key="pictureIng.id"
       :cardPictureIng="pictureIng"
     />
+
+    <!--  <button @click="goPrev()">Prev</button>
+    <button @click="goNext()">Next</button>
+    v-for="(pictureIng, index) in picturesIngList.list" :key="index" :class="{ 'slide': true, 'active': picturesIngList.currentSlide === index }"
+  -->
+  
   </section>
 </template>
 
 <style lang="scss" scoped as *>
-.picture-ing{
+.picture-ing {
   display: flex;
   flex-direction: row;
-    
 }
+
+/*
+.active {
+  display: block;
+}
+.slide{
+  display: none;
+}*/
 </style>

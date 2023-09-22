@@ -62,45 +62,49 @@ export default {
 </template>
 
 <style lang="scss" scoped as *>
-.container-best-music {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 700px;
-  background-color: var(--black);
+footer {
+  max-width: 100%;
 
-  .text-video {
-    h5 {
+  .container-best-music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    height: 700px;
+    background-color: var(--black);
+
+    .text-video {
+      h5 {
+        font-size: 0.75rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  .container-picture-ins {
+    max-width: 100%;
+    max-height: 200px;
+  }
+
+  .container-info {
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: var(--black);
+    color: var(--white);
+    .form-control {
+      padding: 1rem 6rem;
+    }
+    .button-general {
+      width: 70%;
+      height: 50px;
       font-size: 0.75rem;
     }
-    h2 {
-      font-size: 2.5rem;
-    }
-  }
-}
-.container-picture-ins {
-  max-width: 100%;
-  max-height: 200px;
-}
-
-.container-info {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
-  background-color: var(--black);
-  color: var(--white);
-  .form-control {
-    padding: 1rem 6rem;
-  }
-  .button-general {
-    width: 70%;
-    height: 50px;
-    font-size: 0.75rem;
   }
 }
 </style>
