@@ -11,7 +11,7 @@ export default {
   components: { CardPictureIng },
 
   //NON FUNZIONA SLIDER
-  method: {
+  methods: {
     goNext() {
       if (picturesIngList.currentSlide < picturesIngList.list.length - 1) {
         picturesIngList.currentSlide++;
@@ -41,9 +41,7 @@ export default {
     <!--  <button @click="goPrev()">Prev</button>
     <button @click="goNext()">Next</button>
     v-for="(pictureIng, index) in picturesIngList.list" :key="index" :class="{ 'slide': true, 'active': picturesIngList.currentSlide === index }"
-  -->
-  
-  </section>
+  --></section>
 </template>
 
 <style lang="scss" scoped as *>

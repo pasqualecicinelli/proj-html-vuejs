@@ -86,7 +86,7 @@ export default {
               aria-label="Search"
             />
             <button class="btn btn-outline-success" type="submit">
-              <img src="/imgs/assets/image (23).svg" alt="" />
+              <!-- <img src="/imgs/assets/image (23).svg" alt="" /> -->
             </button>
           </form>
         </div>
